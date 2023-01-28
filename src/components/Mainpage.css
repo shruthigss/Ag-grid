@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 30px auto 2px auto;
+    background-color: rgb(19, 141, 19);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.menu h1{
+    font-size: large;
+    color: white;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.dropdown{
+    width: 200px;
+    margin: 0 auto;
+}
+.dropdown ul{
+    list-style: none;
+}
+.dropdown li{
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dropdown li:hover{
+    scale: 102%;
+}
+.dropdown .paths{
+    color: white;
+    text-decoration: none;    
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
